@@ -263,6 +263,3 @@ def main():
     tracker.run()
     x_cm, y_cm, z_cm = tracker.get_head_position_cm()
     print(f"Final head position (screen-centered): x={x_cm} cm, y={y_cm} cm, z={z_cm} cm")
-
-if __name__ == "__main__":
-    main()
